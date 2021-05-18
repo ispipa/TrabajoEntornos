@@ -41,7 +41,7 @@ public class OperacionesTest {
     @After
     public void tearDown() {
     }
-     @Ignore
+    @Ignore
     @Test
     public void testSumarPar() {
         System.out.println("sumarPar");
@@ -106,10 +106,11 @@ public class OperacionesTest {
         int b = 2;
        int result = instance.mayor(a, b);
        
-        int expResult = 0;
+        int expResult = 2;
         assertEquals(expResult, result);
         
     }
+   
 
     /**
      * Test of sumarVector method, of class Operaciones.
