@@ -110,6 +110,19 @@ public class OperacionesTest {
         assertEquals(expResult, result);
         
     }
+    @Test
+    public void testIgual() {
+        System.out.println("testIgual");
+         Operaciones instance = new Operaciones();
+         
+        int a = 0;
+        int b = 0;
+       int result = instance.mayor(a, b);
+       
+        int expResult = 0;
+        assertEquals(expResult, result);
+        
+    }
    
 
     /**
