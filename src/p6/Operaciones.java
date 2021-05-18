@@ -69,7 +69,7 @@ public int sumarPar(int a, int b) {
  */
         int sum=0;
         for (int i = 0; i < numeros.length; i++) {
-            sum+=numeros[0];
+            sum+=numeros[i];
         }
         return sum;
     }
